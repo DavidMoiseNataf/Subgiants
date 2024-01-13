@@ -13,6 +13,7 @@ The putfut file which includes our derived stellar parameters from pyMultiNest, 
 
 "TotalSample.fits", a 125 MB file that can be downloaded at the following link:
 https://drive.google.com/file/d/16s8GL_3smDSTqK1Lze4C5tixFSEYZvzq/view?usp=sharing
+
 "TotalSample.csv", which can be downloaded at the following link:
 https://drive.google.com/file/d/1PD1UhviBATGBfAeVEOdXpU3lK4Sdr-6f/view?usp=sharing
 
