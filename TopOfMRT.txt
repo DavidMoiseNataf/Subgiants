@@ -1,0 +1,53 @@
+Title: Accurate, Precise, and Physically Self-consistent Ages and Metallicities for 400,000 Solar Neighborhood Subgiant Branch Stars,  submitted to The Astrophysical Journal of the AAS
+Authors: Nataf D.M., Schlaufman K., Reggiani H., Hahn I.
+Table: Summary input data and derived parameter for 422,365 subgiants 
+================================================================================
+Byte-by-byte Description of file: table.dat
+--------------------------------------------------------------------------------
+ Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+  1- 19  I19    ---    dr3_source_id   ? source ID from Gaia DR3 (1)   
+ 21- 39  I19    ---    objid_GALEX     ? source ID from GALEX (2)    
+ 41- 54  F14.10 ---    ra              [0.0/360.0], right ascension in ICRS at the reference epoch 2016 (1)  
+ 56- 69  F14.10 ---    dec             [-89.95/89.36], declination in ICRS at the reference epoch 2016 (1) 
+ 71- 79  F9.5   ---    ra2000          [0.0/360.0], right ascension in ICRS at the reference epoch 2000 (1)
+ 81- 89  F9.5   ---    dec2000         [-89.95/89.36], declination in ICRS at the reference epoch 2000 (1)
+ 91-100  F10.6  deg    l2000           [0.0/360.0], Galactic Longitude of the object at reference epoch 2000 
+102-111  F10.6  deg    b2000           [-89.81/89.88], Galactic Latitude of the object at reference epoch 2000
+113-119  F7.4   mag    phot_g_mean_mag [6.57/14.99], Gaia G mag from Gaia DR3 catalog (1)
+121-125  F5.3   ---    mass_16         posterior 16th percentile value of initial stellar mass in solar masses 
+127-131  F5.3   ---    mass            posterior median value of initial stellar mass in solar masses   
+133-137  F5.3   ---    mass_84         posterior 84th percentile value of initial stellar mass in solar masses
+139-144  F6.3   ---    logage_16       posterior 16th percentile value of log(age/yr) 
+146-151  F6.3   ---    logage          posterior median value of log(age/yr) 
+153-158  F6.3   ---    logage_84       posterior 84th percentile value of log(age/yr) 
+160-165  F6.3   ---    feh_16          [-2.78/0.59], posterior 16th percentile value of [Fe/H] 
+167-172  F6.3   ---    feh             [-2.73/0.59], posterior median value of   [Fe/H] 
+174-179  F6.3   ---    feh_84          [-2.66/0.59], posterior 84th percentile value of [Fe/H] 
+181-185  F5.3   ---    AV_model_16     posterior 16th percentile value of extinction in V-band 
+187-191  F5.3   ---    AV_model        posterior median value of extinction in V-band 
+193-197  F5.3   ---    AV_model_84     posterior 84th percentile value of extinction in V-band
+199-203  F5.0   ---    Teff_16         posterior 16th value of stellar effective temperature  
+205-209  F5.0   ---    Teff            posterior median value of stellar effective temperature  
+211-215  F5.0   ---    Teff_84         posterior 84th value of stellar effective temperature  
+217-220  F4.2   ---    logg_16         posterior 16th percentile value of the logarithm of stellar surface gravity
+222-225  F4.2   ---    logg            posterior median value of the logarithm of stellar surface gravity
+227-230  F4.2   ---    logg_84         posterior 84th percentile value of the logarithm of stellar surface gravity
+232-238  F7.1   ---    GP_Jp           [-3546.78/3327.56]? azimuthal action, kpc km/s (3)
+240-245  F6.1   ---    GP_Jr           [0.0/6972.86]? radial action, kpc km/s (3)     
+247-252  F6.1   ---    GP_Jz           [0.0/3477.56]? vertical action, kpc km/s (3)     
+254-260  F7.1   ---    GP_Lz           [-3546.78/3327.56]? Orbital angular momentum of orbit in kpc km/s (3)
+262-269  F8.1   ---    GP_E            [-83540.05/34534.18]? (km/s)^2 (3)
+271-274  F4.2   ---    GP_Rperi        [0.04/9.51]? pericenter of orbit in kpc (3)   
+276-281  F6.2   ---    GP_Rap          [6.79/122.51]? apocenter of orbit in kpc (3)
+283-287  F5.2   ---    GP_zmax         [0.0/78.95]? peak displacement of orbit from the Galactic plane in kpc (3)
+289-292  F4.2   ---    GP_ecc          [0.0/1.0]? eccentricity of orbit (3)
+294-296  F3.1   ---    Blend            "1" if photometry deemed unreliable, "0" otherwise  
+298-303  F6.4   ---    Chance_pvalue   p-value of excess noise in radial velocity when available (4)     
+305-311  A7     ---    Sample          Selection function: primary sample or metal-poor annex 
+--------------------------------------------------------------------------------
+Note (1): Gaia DR3; see Gaia Collaboration et al. (2023A&A...674A...1G)
+Note (2): Revised Catalog of GALEX Ultraviolet Sources, see Bianchi et al. (2017ApJS..230...24B)
+Note (3): Computed using Galpy, see Bovy (2015ApJS..216...29B)
+Note (4): Metric for noise in radial velocity fits, see Chance et al. (2022arXiv220611275C)
+--------------------------------------------------------------------------------
