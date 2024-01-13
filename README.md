@@ -13,7 +13,7 @@ The putfut file which includes our derived stellar parameters from pyMultiNest, 
 
 "TotalSample.fits", a 125 MB file that can be downloaded at the following link:
 https://drive.google.com/file/d/16s8GL_3smDSTqK1Lze4C5tixFSEYZvzq/view?usp=sharing
+"TotalSample.csv", a 275 MB file which can be downloaded at the following link:
+https://drive.google.com/file/d/1JnFA3FQfKROFSFiPVh8inN7Hw5mbe_05/view?usp=sharing
 
-"TotalSample.csv", which can be downloaded at the following link:
-https://drive.google.com/file/d/1PD1UhviBATGBfAeVEOdXpU3lK4Sdr-6f/view?usp=sharing
-
+The file "TopOfMRT.txt" is located in this repository, and includes a description of the output columns in "TotalSample", both csv and fits versions.
