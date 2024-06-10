@@ -17,3 +17,5 @@ https://drive.google.com/file/d/16s8GL_3smDSTqK1Lze4C5tixFSEYZvzq/view?usp=shari
 https://drive.google.com/file/d/1JnFA3FQfKROFSFiPVh8inN7Hw5mbe_05/view?usp=sharing
 
 The file "TopOfMRT.txt" is located in this repository, and includes a description of the output columns in "TotalSample", both csv and fits versions.
+
+The file "StarFormationHistoryKinematicsMovie.mp4" is an animation, whereby each frame shows 2 percentiles of the stars of our full sample in order of increasing ages, and at each age we see the kinematics of the stars color-coded by metallicity, and the metallicity distribution function of the stars. 
