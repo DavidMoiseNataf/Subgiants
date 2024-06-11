@@ -1,6 +1,6 @@
 Title: Accurate, Precise, and Physically Self-consistent Ages and Metallicities for 400,000 Solar Neighborhood Subgiant Branch Stars,  submitted to The Astrophysical Journal of the AAS
 Authors: Nataf D.M., Schlaufman K., Reggiani H., Hahn I.
-Table: Summary input data and derived parameter for 422,365 subgiants 
+Table: Summary input data and derived parameter for 401,819 subgiants 
 ================================================================================
 Byte-by-byte Description of file: table.dat
 --------------------------------------------------------------------------------
@@ -27,24 +27,25 @@ Byte-by-byte Description of file: table.dat
 181-185  F5.3   ---    AV_model_16     posterior 16th percentile value of extinction in V-band 
 187-191  F5.3   ---    AV_model        posterior median value of extinction in V-band 
 193-197  F5.3   ---    AV_model_84     posterior 84th percentile value of extinction in V-band
-199-203  F5.0   ---    Teff_16         posterior 16th value of stellar effective temperature  
-205-209  F5.0   ---    Teff            posterior median value of stellar effective temperature  
-211-215  F5.0   ---    Teff_84         posterior 84th value of stellar effective temperature  
-217-220  F4.2   ---    logg_16         posterior 16th percentile value of the logarithm of stellar surface gravity
-222-225  F4.2   ---    logg            posterior median value of the logarithm of stellar surface gravity
-227-230  F4.2   ---    logg_84         posterior 84th percentile value of the logarithm of stellar surface gravity
-232-238  F7.1   ---    GP_Jp           [-3546.78/3327.56]? azimuthal action, kpc km/s (3)
-240-245  F6.1   ---    GP_Jr           [0.0/6972.86]? radial action, kpc km/s (3)     
-247-252  F6.1   ---    GP_Jz           [0.0/3477.56]? vertical action, kpc km/s (3)     
-254-260  F7.1   ---    GP_Lz           [-3546.78/3327.56]? Orbital angular momentum of orbit in kpc km/s (3)
-262-269  F8.1   ---    GP_E            [-83540.05/34534.18]? (km/s)^2 (3)
-271-274  F4.2   ---    GP_Rperi        [0.04/9.51]? pericenter of orbit in kpc (3)   
-276-281  F6.2   ---    GP_Rap          [6.79/122.51]? apocenter of orbit in kpc (3)
-283-287  F5.2   ---    GP_zmax         [0.0/78.95]? peak displacement of orbit from the Galactic plane in kpc (3)
-289-292  F4.2   ---    GP_ecc          [0.0/1.0]? eccentricity of orbit (3)
-294-296  F3.1   ---    Blend            "1" if photometry deemed unreliable, "0" otherwise  
-298-303  F6.4   ---    Chance_pvalue   p-value of excess noise in radial velocity when available (4)     
-305-311  A7     ---    Sample          Selection function: primary sample or metal-poor annex 
+199-202  F5.0   ---    Teff_16         posterior 16th value of stellar effective temperature  
+204-207  F5.0   ---    Teff            posterior median value of stellar effective temperature  
+209-212  F5.0   ---    Teff_84         posterior 84th value of stellar effective temperature  
+214-217  F4.2   ---    logg_16         posterior 16th percentile value of the logarithm of stellar surface gravity
+219-222  F4.2   ---    logg            posterior median value of the logarithm of stellar surface gravity
+224-227  F4.2   ---    logg_84         posterior 84th percentile value of the logarithm of stellar surface gravity
+229-235  F7.1   ---    GP_Jp           [-3546.78/3327.56]? kpc km/s (3)
+237-242  F6.1   ---    GP_Jr           [0.0/6972.86]? kpc km/s (3)     
+244-249  F6.1   ---    GP_Jz           [0.0/3477.56]? kpc km/s (3)     
+251-257  F7.1   ---    GP_Lz           [-3546.78/3327.56]? Orbital angular momentum in 
+259-266  F8.1   ---    GP_E            [-83540.05/34534.18]? (km/s)^2 (3)
+268-271  F4.2   ---    GP_Rperi        [0.04/9.51]? pericenter of orbit in kpc (3)   
+273-278  F6.2   ---    GP_Rap          [6.79/122.51]? apocenter of orbit in kpc (3)
+280-284  F5.2   ---    GP_zmax         [0.0/78.95]? peak displacement of orbit from the Galactic plane in kpc (3)
+286-289  F4.2   ---    GP_ecc          [0.0/1.0]? eccentricity of orbit (3)
+291-293  F3.1   ---    Blend            "1" if photometry deemed unreliable, "0" otherwise  
+295-300  F6.4   ---    Chance_pvalue   p-value of excess noise in radial velocity when available (4)
+302-306  F5.3   ---    VarExcess       [0.0/1.0]? Percentile of G-band photometric variability
+308-314  A7     ---    Sample          Selection function: primary sample or metal-poor annex 
 --------------------------------------------------------------------------------
 Note (1): Gaia DR3; see Gaia Collaboration et al. (2023A&A...674A...1G)
 Note (2): Revised Catalog of GALEX Ultraviolet Sources, see Bianchi et al. (2017ApJS..230...24B)
