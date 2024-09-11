@@ -11,7 +11,7 @@ The Jupyter Notebook "IsochronesSubgiants.ipynb" is a sample of the code used to
 
 The putfut file which includes our derived stellar parameters from pyMultiNest, as well as derived orbital parameters using galPy, is 
 
-"TotalSample.fits", a 125 MB file that can be downloaded at the following link:
+"TotalSample.fits", a 76 MB file that can be downloaded at the following link:
 https://drive.google.com/file/d/16s8GL_3smDSTqK1Lze4C5tixFSEYZvzq/view?usp=sharing
 "TotalSample.csv", a 275 MB file which can be downloaded at the following link:
 https://drive.google.com/file/d/1JnFA3FQfKROFSFiPVh8inN7Hw5mbe_05/view?usp=sharing
